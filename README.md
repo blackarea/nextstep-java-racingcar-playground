@@ -24,3 +24,9 @@ git checkout main // 기본 브랜치가 main인 경우
 git checkout -b 브랜치이름
 ex) git checkout -b apply-feedback
 ```
+
+## 내가 만든 기능정리
+- 입력 : 자동차 이름 입력(Car 객체 반환), 시도할 횟수 입력
+- 출력 : 자동차 이름 출력, 전진한 칸 출력
+- 전진 : 랜덤값 메소드, 전진 메소드
+- 자동차 : 필드 -> 이름, 전진한 칸(int)
