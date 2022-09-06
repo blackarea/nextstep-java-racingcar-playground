@@ -23,6 +23,10 @@ public class Car {
         return currentPosition;
     }
 
+    public String getName() {
+        return name;
+    }
+
     public void tryMove() {
         if(createRandomNumber() > 3) {
             moveForward();
