@@ -1,7 +1,7 @@
-package racingcar;
+package beforefeedback.racingcar;
 
-import ui.InsertView;
-import ui.ResultView;
+import beforefeedback.ui.InsertView;
+import beforefeedback.ui.ResultView;
 
 import java.util.ArrayList;
 import java.util.Arrays;

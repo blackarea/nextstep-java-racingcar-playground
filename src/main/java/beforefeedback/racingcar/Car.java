@@ -1,4 +1,4 @@
-package racingcar;
+package beforefeedback.racingcar;
 
 public class Car {
     private String name;

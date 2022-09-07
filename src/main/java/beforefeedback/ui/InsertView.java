@@ -1,4 +1,4 @@
-package ui;
+package beforefeedback.ui;
 
 import java.util.Scanner;
 

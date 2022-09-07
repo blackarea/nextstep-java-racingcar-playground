@@ -1,6 +1,6 @@
-package ui;
+package beforefeedback.ui;
 
-import racingcar.Car;
+import beforefeedback.racingcar.Car;
 
 import java.util.List;
 

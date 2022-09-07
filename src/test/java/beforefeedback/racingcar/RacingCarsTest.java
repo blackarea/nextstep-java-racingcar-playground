@@ -1,8 +1,8 @@
-package racingcar;
+package beforefeedback.racingcar;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import ui.InsertView;
+import beforefeedback.ui.InsertView;
 
 import java.util.Arrays;
 import java.util.List;
