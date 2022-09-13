@@ -3,13 +3,17 @@ package afterFeedback;
 import java.util.Objects;
 
 public class Position {
-    private int position;
+    private final int position;
 
     public Position(int position) {
         if(position < 0){
             throw new IllegalArgumentException("위치는 0보다 작을 수 없습니다.");
         }
         this.position = position;
+    }
+
+    public Position increase() {
+        return new Position(position + 1);
     }
 
     @Override
