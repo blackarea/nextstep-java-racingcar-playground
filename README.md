@@ -24,3 +24,14 @@ git checkout main // 기본 브랜치가 main인 경우
 git checkout -b 브랜치이름
 ex) git checkout -b apply-feedback
 ```
+
+### 내가 만들 기능정리
+
+---
+- 입력 : 자동차 이름 입력, 시도할 횟수 입력
+- 출력 : 자동차 이름 출력, 전진한 칸 출력
+- 클래스 : Car, Cars, RacingGame, 입력, 출력 
+---
+### 피드백 이후
+- 랜덤 값은 원활한 테스트를 위하여 RacingGame에서 인자로 전달한다.
+- 모든 원시값과 문자열을 포장하고 일급콜렉션을 사용한다.
