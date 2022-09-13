@@ -12,8 +12,16 @@ public class Position {
         this.position = position;
     }
 
+    private int getPosition() {
+        return position;
+    }
+
     public Position increase() {
         return new Position(position + 1);
+    }
+
+    public boolean lessThan(Position position) {
+        return this.position < position.getPosition();
     }
 
     @Override
@@ -28,4 +36,5 @@ public class Position {
     public int hashCode() {
         return Objects.hash(position);
     }
+
 }
