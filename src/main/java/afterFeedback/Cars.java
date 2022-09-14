@@ -10,6 +10,13 @@ public class Cars {
         this.carList = carList;
     }
 
+    public List<Car> play(List<Integer> randomNumbers){
+        for (int i = 0; i < carList.size(); i++) {
+            carList.get(i).move(randomNumbers.get(i));
+        }
+        return carList;
+    }
+
     public List<Car> findWinner() {
         return getWinnerList(getMaxPosition());
     }

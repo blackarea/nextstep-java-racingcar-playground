@@ -4,7 +4,7 @@ package afterFeedback;
 import java.util.Objects;
 
 public class Name {
-    private String name;
+    private final String name;
 
     public Name(String name) {
         if(name.isEmpty() || name.trim().isEmpty()){
@@ -14,6 +14,10 @@ public class Name {
             throw new IllegalArgumentException("자동차 이름은 4글자를 넘어서면 안됩니다.");
         }
         this.name = name;
+    }
+
+    public String getName() {
+        return name;
     }
 
     @Override

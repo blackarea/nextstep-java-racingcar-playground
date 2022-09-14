@@ -15,9 +15,17 @@ public class Car {
         this.position = new Position(position);
     }
 
+    public String getName() {
+        return name.getName();
+    }
+
+    public int getPosition(){
+        return position.getPosition();
+    }
+
     public Position move(int randomNo) {
         if (randomNo >= FORWARD_NUM) {
-            return position.increase();
+            position = position.increase();
         }
 
         return position;
@@ -31,7 +39,6 @@ public class Car {
     }
 
     public boolean isWinner(Position position) {
-        return position.equals(position);
+        return this.position.equals(position);
     }
-
 }
