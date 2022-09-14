@@ -1,7 +1,7 @@
 package afterFeedback;
 
 public class Car {
-    private static final int FORWARD_NUM = 4;
+    private static final int FORWARD_LIMIT_NUM = 4;
 
     private Name name;
     private Position position;
@@ -24,7 +24,7 @@ public class Car {
     }
 
     public Position move(int randomNo) {
-        if (randomNo >= FORWARD_NUM) {
+        if (randomNo >= FORWARD_LIMIT_NUM) {
             position = position.increase();
         }
 

@@ -5,13 +5,6 @@ import java.util.Objects;
 public class Position {
     private final int position;
 
-    @Override
-    public String toString() {
-        return "Position{" +
-                "position=" + position +
-                '}';
-    }
-
     public Position(int position) {
         if(position < 0){
             throw new IllegalArgumentException("위치는 0보다 작을 수 없습니다.");
